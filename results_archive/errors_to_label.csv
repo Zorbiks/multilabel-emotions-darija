@@ -1,0 +1,31 @@
+lang,text,true,pred,hint,category
+ary,الفيضان اللّي ضرب فاس كان غادي يقتل رجل أعمال معروف وصيفطو للإنعاش ودبا مزال فغيبوبة,['sadness'],"['sadness', 'fear']",multi-label?,multi-label
+ary,المؤبد لمغربي قتل مراتو الصبليونية وولدها,"['sadness', 'fear']","['sadness', 'disgust']",multi-label?,multi-label
+ary,السّيبة. نايضة مضاربات بالسيوفا فحي البطحاء بفاس سالات بإصابات ومطاردات أمنية,"['fear', 'anger']","['sadness', 'fear']",multi-label?,implicit emotion
+ary,محمد السادس يتصل هاتفيا بولي العهد السعودي,[],['joy'],false alarm,other
+ary,إدانة شخص تشد كيحاول يغتاصب دري داخل مؤسسة تعليمية فرمضان,['disgust'],"['sadness', 'fear', 'surprise', 'disgust']",multi-label?,multi-label
+ary,داكشي لي بقا نتا تولي رئيس حكومة ههههههه والله الى هزلت,[],['anger'],false alarm,irony/sarcasm
+ary,"الكَيرا فأوكرانيا.. روسيا كتهدد باستخدام السلاح النووي و وزارة دفاعها : 14 ألف تقتلو و16 ألف تجرحو من الجيش الأوكراني,",['sadness'],"['sadness', 'fear']",multi-label?,multi-label
+ary,khes ykoun 3ndk dakchi dyal n7as bech tvalidi dif b 11 ou nta kan 3ndek 225 f controle,[],['anger'],dialect/code-switching?; false alarm,dialect/code-switching
+ary,ta ana ma cheftouch ki dayer wessfih lina 3afak 😎,[],['joy'],dialect/code-switching?; false alarm,dialect/code-switching
+ary,لماذا ينتحر المغاربة ؟ هل أصبحنا على قدم وساق مع اليابان و السويد و سقراط و باتريك دوفير و أنطوني بوردان.؟,"['sadness', 'surprise']",['anger'],multi-label?,irony/sarcasm
+ary,@<username> chiro hbiba twahachnak bzf mstaniyin nchofek fe l maghrib fa9rab wa9t,['joy'],['anger'],dialect/code-switching?,dialect/code-switching
+ary,بوليسي فمكناس كبتها. نصب وخان مرتو وعطا شيك بدون رصيد وعدد ضحاياه وصل لـ 6.. وها القرار لي تخاد فحقو,['disgust'],"['fear', 'surprise', 'disgust']",multi-label?,multi-label
+ary,l2oghnia dyal chawki w souka m3ahom fiha two tone wa9ila p hadchi li ban lia w lah a3lam ^^,[],['joy'],dialect/code-switching?; false alarm,dialect/code-switching
+ary,عاجل. قربلة بلجنة المالية بين الپام والبيجيدي حول المغربي الاسرائيلي بيريز وقفات الجلسة ومزايدات خاوية,"['anger', 'surprise']",[],multi-label?,implicit emotion
+ary,السياسة لعبة قدرة...واخا ماينتاخبوش عليهم الشعب تيوصلوا للكراسي بكل سهولة...  مهزلة,['sadness'],['anger'],,annotation noise
+arq,عمر كان زعفان عليهم: كان حاب يتهنّى في هاذ البيت.,"['anger', 'disgust']","['sadness', 'disgust']",multi-label?,multi-label
+arq,الراوي: جدّة كانت تهدر مع روحها في هاذ اللّيالي تع الصّيف. كانت تتمتم وحدها، من بعد تغنّي و تتّرعد. كانوا نساو كيفاش كانت تهدر مع الكبر. وضرك ما كانش ليلة تجوز بلا ما تبدا تهدر وحدها بلا سبّة.,"['sadness', 'surprise']","['joy', 'sadness', 'disgust']",multi-label?,multi-label
+arq,الراوي: السوغة تاعها نطلقت و زادت.,"['sadness', 'fear', 'anger', 'surprise']","['sadness', 'fear', 'surprise']",multi-label?,multi-label
+arq,عيني: واش راكوا تحكوا؟ و اذا حبيت نقتلهم ضرك؟ ما نقدرش؟ واش اللي يحبسني؟ ماشي اولادي؟,"['anger', 'surprise', 'disgust']","['sadness', 'anger', 'surprise', 'disgust']",multi-label?,multi-label
+arq,الراوي:  اللّيستات كانوا طوال وبزّاف كانوا يستنّاو دالتهم.,['sadness'],[],,implicit emotion
+arq,الراوي: هاذ الشي قعد دقيقة وعمر نسى كامل واش عانى.,[],['sadness'],false alarm,implicit emotion
+arq,الراوي: كانوا يقربوا من الدخلة تع بيته و الجارات لي يحبوا يوقبوا اكثر من لخرين كانوا يدخلوا شوية ريسانهم من القماش لي ساتر الباب امبعد يروحوا حايرات و تالفتلهم كامل.,['surprise'],"['joy', 'surprise', 'disgust']",multi-label?,multi-label
+arq,الراوي:موراها بشويّة ، عيني رفدت ليزار لي كان مغطّي الباب وشافت مريم على خطوة من الباب.,['surprise'],"['joy', 'surprise']",multi-label?,multi-label
+arq,الراوي: في بيت عيني كنا نسمعوا الناس لى راقدة تتنفس وواحد يتنهد في رقاده : هاذي عيني.,['sadness'],"['sadness', 'surprise', 'disgust']",multi-label?,multi-label
+arq,الراوي: جدة كانت تستنى فيها تبعد و تكمّش في روحها، كانت كيما ذرّي ولّا كلب صغير خايف يضربوه، كانت مكمشة و حاطة رأسها بين رجليها شغل ظهرها مكسر.,"['sadness', 'fear']","['sadness', 'fear', 'surprise', 'disgust']",multi-label?,multi-label
+arq,عيني قاعدة تشتكي و تقول وقتاش يكبر عمر وليدها و ينقص عليها لقيمته.,"['sadness', 'anger']","['sadness', 'anger', 'disgust']",multi-label?,multi-label
+arq,لالة: جيبي. ما جيتش نسكن هنا. ما جيت نطلع! يوه!,['anger'],"['sadness', 'anger', 'surprise', 'disgust']",multi-label?,multi-label
+arq,"عيني: ""نظلو نخدعو الجوع."" و ضحكت.","['sadness', 'disgust']","['sadness', 'anger', 'surprise', 'disgust']",multi-label?,irony/sarcasm
+arq,الراوي: زهور حكات واش عرفت، ماشي واش شافت بعينها.,[],['surprise'],false alarm,other
+arq,الراوي: في هاذ الوقت ناس الدار كانوا يقعدوا في بيوتهم. وقت الڨايلة و هذا وين بدا مارس بصح مع كل بيت غلقين على ارواحهم في هاذ الساعة، الواحد يحسب رانا فالصيف.,[],"['sadness', 'anger', 'disgust']",multi-label?; false alarm,implicit emotion
